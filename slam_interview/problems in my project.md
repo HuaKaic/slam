@@ -87,3 +87,7 @@ Camera.height: 576
 Camera.fps: 30.0
 DepthMapFactor: 1.0
 ```
+## Eigen 编译错误
+![图片](https://user-images.githubusercontent.com/92136649/190848884-a96c079c-4b36-42df-8936-cfff90ee595c.png)
+解决方法：cmakelists find_packages(Eigen3 3.1.0 REQUIRED) ---> find_packags(Eigen3 3.1.0 REQUIRED NO_MODULES)
+
